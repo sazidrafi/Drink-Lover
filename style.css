@@ -25,4 +25,47 @@
     font-weight: bold;
     padding-top:5px;
     padding-bottom: 6px;
+    /* background-color: rgb(46, 150, 132); */
+}
+
+.card-design{
+    border-radius: 8px;
+    border: 1px solid black;
+    margin: 20px;
+    width: 300px;
+    height: 400px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 12px 12px 12px rgba(0,0,0,0.2);
+    padding: 15px;
+    
+}
+.instruction{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.card-design2{
+    height: auto;
+    width: auto;
+}
+
+.name-tag{
+    font-weight: bold;
+}
+.img-size{
+    height: 250px;
+    width: 300px;
+    border-radius: 8px;
+}
+.show-all-items{
+    display: flex;
+    flex-wrap: wrap;
+}
+.add-to-cart-btn{
+    padding: 5px;border-radius: 4px;
+    
+}
+.details-btn{
+    padding: 5px;border-radius: 4px;
 }
