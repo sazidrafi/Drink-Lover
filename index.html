@@ -5,6 +5,9 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="style.css" rel="stylesheet">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+            rel="stylesheet">
     </head>
     <body>
         <!-- search button and seach box added -->
@@ -32,7 +35,7 @@
                 <!-- show item after pressing add to cart -->
                 <h2>Item in Cart: <span id="cart-count">0</span></h2>
 
-                <div class="cart-items">
+                <div id="cart-items" class="cart-items">
                     <div
                         style="font-weight: bold; display: flex;justify-content: space-between;">
                         <p>SL</p>
@@ -45,7 +48,56 @@
             </div>
         </section>
 
+        <section id="showdetailsonbtnclick">
+            <div class="modal fade" id="drinkModal" tabindex="-1">
+
+                <div class="modal-dialog modal-dialog-centered">
+
+                    <div class="modal-content">
+
+                        <div class="modal-header">
+
+                            <h5 id="modal-title" class="modal-title">
+                                Drink Details
+                            </h5>
+
+                            <button
+                                type="button"
+                                class="btn-close"
+                                data-bs-dismiss="modal">
+                            </button>
+
+                        </div>
+
+                        <div id="modal-body" class="modal-body">
+
+                            
+
+                        </div>
+
+                        <div class="modal-footer">
+
+                            <button
+                                type="button"
+                                class="btn btn-secondary"
+                                data-bs-dismiss="modal">
+
+                                Close
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+
         <!-- add javascript file here -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
         <script src="script.js"></script>
     </body>
 </html>
