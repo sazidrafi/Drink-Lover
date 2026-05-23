@@ -61,6 +61,19 @@
 .show-all-items{
     display: flex;
     flex-wrap: wrap;
+    width: 80%;
+}
+.cart-section{
+    width: 15%;
+    padding-left: 40px;
+    /* border: 1px solid black; */
+    
+}
+
+.items-and-cart{
+    display: flex;
+    /* justify-content: space-around; */
+    padding: 50px;
 }
 .add-to-cart-btn{
     padding: 5px;border-radius: 4px;
