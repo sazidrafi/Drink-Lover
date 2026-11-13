@@ -51,7 +51,7 @@ Drink-Lover/
 ├── index.html
 ├── style.css
 ├── script.js
-├── docs/                     # Add this folder for screenshots
+├── docs/                    
 │   └── screenshots/
 │       ├── drink-listing.png
 │       ├── search-results.png
@@ -71,7 +71,7 @@ Drink-Lover/
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
+   git clone https://github.com/sazidrafi/Drink-Lover.git
    ```
 
 2. Open the project folder and launch `index.html` in your browser. You can also serve the folder with VS Code Live Server.
